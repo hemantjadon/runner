@@ -3,6 +3,8 @@
 `runner` provides an idiomatic wrapper for managing long-running tasks with the 
 requirement of single atomic runs and graceful atomic shutdowns.
 
+![Go](https://github.com/hemantjadon/runner/workflows/Go/badge.svg?branch=master&event=push)
+
 ## Usage
 
 Runner can be made by wrapping any `runnable` into the `Runner` type. `runnable`
